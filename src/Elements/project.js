@@ -61,7 +61,7 @@ export default function Project(){
     const sourceArray = [
         "projects/ecommerce.png",
         "projects/ecommerce.png",
-        "projects/Sponxer.png"
+        "projects/sponxer.png"
     ];
 
     const TitleArray = [
