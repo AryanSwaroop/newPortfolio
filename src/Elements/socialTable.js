@@ -9,13 +9,13 @@ export default function SocialTable(){
 <div className="subSkill">
  
     <SmallSkillBox name="Insta" src="icons/instagram.svg"/>
-    <SmallSkillBox name="Whatsap" src="icons/Whatsapp.svg"/>
+    <SmallSkillBox name="Whatsap" src="icons/whatsapp.svg"/>
     
 </div>
 
  <div className="subSkill">
 
-    <BigSkillBox name="Leet" src="icons/Leetcode.svg"/>
+    <BigSkillBox name="Leet" src="icons/leetcode.svg"/>
     <BigSkillBox name="hRank" src="icons/hackerrank.svg"/>
 
  </div>
