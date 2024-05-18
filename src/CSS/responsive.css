@@ -1,0 +1,425 @@
+@media screen and (min-width : 1200px) {
+    .Logo {
+        font-size: 5rem;
+        display: flex;
+        flex-direction: row;
+        color: #7a7878;
+        justify-content: center;
+        
+    }
+    
+    .LogoParts {
+        margin: 0;
+        height: 6.5rem;
+    }
+    
+    /*********************Logo*****************************/
+    .arrowCage {
+        margin : 10%;
+        margin-top: 0.5%;
+        margin-bottom: 0;
+    }
+   
+    .cardButton {
+        width: 30%;
+        border: none;
+        margin: 0 10%;
+        background-color: rgb(34, 34, 34)
+    }
+
+    .ProjectButton {
+        margin: auto;
+        margin-right: 6%;
+        width: 30%;
+        height: 5rem;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 0.4rem;
+        font-size: 0.9rem;
+    }
+    
+    .cardPara {
+        width: 60%;
+        font-size: 1rem;
+        margin-left: 6rem;
+        margin-right: 1rem;
+        height: 5rem;
+    }
+    
+    .cardHeading {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+    
+    .cardImage {
+        border-radius:  1rem 0 0 1rem ;
+        width: 90%;
+        height: 15rem;
+    }
+    
+   
+    
+    .projectsPage {
+        display: flex;
+        flex-direction: row;
+        border-radius: 1.1rem;
+        height: 15rem;
+        width:70%;
+        margin: 15%;
+        margin-top: 1%;
+        background-color: white;
+        position: absolute;
+        transition: all 1s linear;
+    }
+    
+    
+    /**************************************Card***************************************/
+    .TitleEmbed {
+        width: 22%;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        margin-top: 20%;
+        margin-left: 6%;
+        margin-bottom: 0;
+    
+    
+        background-color: black;
+        border-radius: 0.1rem;
+    
+        
+        box-shadow: 0.02rem 0.1rem 0.4rem black;
+    }
+    
+    .Reusabletitle {
+        font-size: 2rem;
+        color: white;
+        margin: auto;
+        
+    }
+    
+    /**********************************/
+    
+    .skillLabel {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-left: 1.4rem;
+        color: white;
+        font-weight: 400;
+        
+    }
+    
+    .skillIcons {
+        height: 3rem;
+        width: 3rem;
+        margin-left: 1.8rem;
+    }
+    
+    .bigSkillBox {
+        background-color:  rgb(39, 38, 38);
+        border-radius: 0.5rem;
+        height: 6rem;
+        margin-top: 5%;
+        
+        box-shadow: 0.02rem 0.15rem 0.6rem black;
+        
+    }
+    
+    
+    
+    .smallSkillBox {
+        background-color:  rgb(39, 38, 38);
+        
+        border-radius: 0.5rem;
+        height: 4.5rem;
+        margin-top: 5%;
+        
+        box-shadow: 0.02rem 0.15rem 0.4rem black;
+        
+    }
+    
+    .skillFlow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .bigSkillLabelAdjust {
+        font-size: 1.9rem;
+        margin-left: 4rem;
+    }
+    
+    .bigSkillIconsAdjust {
+        margin-left: 1.5rem;
+        height: 4rem;
+        width : 4rem;
+    }
+    
+    
+    /***********************tools********************/
+    .Gallery {
+    
+        height: 35rem;
+        width: 80%;
+        margin: auto;
+        border-radius: 0.4rem;
+        margin-top: 5%;
+        box-shadow: 0.1rem 0.2rem 0.5rem black;
+        
+        
+    }
+    
+    .galleryPhotos {
+        width: 100%;
+        height: 35rem;
+        border-radius: 0.3rem;
+        display: block;
+        
+    }
+    
+    /*********************Gallery at top ******************/
+    
+    .tickIcon {
+        height: 2.5rem;
+        margin-left: 5%;
+        margin-right: 2%;
+        
+    }
+    
+    .flexApplier {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-content: baseline;
+    }
+    
+    .smallPiece {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(59, 59, 59);
+        width: 20%;
+        height: 15rem;
+        margin-left: 25%;
+        margin-top: 10%;
+    
+        border-radius:  1rem 0 0 1rem  ;
+        box-shadow: 0.3rem 0.5rem 0.5rem black;
+        
+    }
+    
+    .skillname {
+        font-size: 2rem;
+        margin: 0;
+        color: white;
+    }
+    
+    .bigPiece {
+        width: 38%;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(59, 59, 59);
+        
+        height: 15rem;
+        margin-right: 25%;
+        margin-left: 2%;
+        margin-top: 10%;
+    
+        border-radius:  0 1rem 1rem 0;
+        box-shadow: 0.3rem 0.5rem 0.5rem black;
+    
+    }
+    
+    .fullPiece{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cardPhoto {
+        height: 7rem;
+        width: 7rem;
+    
+        border-radius: 5rem;
+        margin: 30%;
+        margin-bottom: 1rem;
+    }
+    
+    .CVDownloader {
+            height: 3rem;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-left: 30%;
+            margin-top: 0;
+            border-radius: 0.6rem;
+            border: none;
+    
+            
+            box-shadow: 0.02rem 0.15rem 0.1rem black;
+    }
+    
+    .cvText {
+        font-size: 1.5rem;
+        margin: 0;
+    
+        margin: auto;
+        margin-left: 2%;
+        font-weight: 300;
+    }
+    
+    .DownloadButton {
+        margin: auto;
+        margin-right: 0rem;
+        height: 1.4rem;
+    }
+    
+    .cardName {
+        color: white;
+        font-size: 2.5rem; 
+        margin-left: 20%;
+        margin-top: 8%;
+        font-weight: 600;
+    
+    }
+    
+    .DetailsBlock {
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .leftPiece {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .degreeIcon {
+        height: 2.5rem;
+        margin: 0.2rem;
+    }
+    
+    .educationDetails {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7rem;
+    }
+    
+    .educationNaming {
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nameOfCollege {
+
+        font-size: 2rem;
+        margin-left: 1.5rem;
+        color: white;
+        font-weight: 400;
+        
+    }
+    
+    
+    /****************************card at second ********************/
+    
+    .skillBox {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        width: 100%;
+    }
+    
+    .subSkill {
+        margin-left: 5.5%;
+        width: 26%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /****************************skill set************************************/
+    
+    .projectBundle {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        position: relative;
+        width: 100%;
+        height: 30rem;
+        overflow: hidden;
+    }
+    
+    .rightArrow {
+        margin-top: 20%;
+        height: 3rem;
+        width: 3rem;
+    }
+    
+    .leftArrow {
+        margin-top: 20%;
+        height: 3rem;
+        width: 3rem;
+    }
+    
+    
+    
+    
+    /********************************Projects********************************************/
+    
+    .footer {
+        width: 100%;
+        height: 20rem;
+        background-color: black;
+        display: flex;
+        align-content: center;
+    }
+    
+    .contactUsDiv {
+        width: 30%;
+        border-radius: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-color: white;
+        height: 15rem;
+    
+    }
+    
+    .footerText {
+        margin: auto;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+    
+    .footerInput {
+        outline: none;
+        margin: auto;
+        height: 40%;
+        margin-bottom: 0;
+        width: 80%;
+    }
+    
+    .messageButton {
+        margin-top: 0;
+        width: 80%;
+        margin: auto;
+        height: 2rem;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 0.4rem;
+        font-size: 0.9rem;
+    }
+    /**********************************Footer****************************************************/
+    
+    
+    
+    /***************************Animation***********************/
+           
+}
