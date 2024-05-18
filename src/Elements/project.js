@@ -59,21 +59,23 @@ export default function Project(){
     }
 
     const sourceArray = [
+        "projects/sponxer.png",
         "projects/ecommerce.png",
-        "projects/ecommerce.png",
-        "projects/sponxer.png"
+        "projects/ecommerce.png"
     ];
 
     const TitleArray = [
+        "Landing Page",
+        
         "Ecommerce" ,
-        "Ecommerce" ,
-        "Landing Page"
+        "Ecommerce" 
     ];
 
     const detailsArray = [
+        "A fully functional Landing website with different tools like redirect to different forms and managing data.",
+        
         "A fully functional ecommerce website with different tools like uploading product, live product gallery etc.",
-        "A fully functional ecommerce website with different tools like uploading product, live product gallery etc.",
-        "A fully functional Landing website with different tools like redirect to different forms and managing data."
+        "A fully functional ecommerce website with different tools like uploading product, live product gallery etc."
     ];
 
 
