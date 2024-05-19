@@ -1,7 +1,16 @@
 import { useEffect, useState } from "react";
 import "../CSS/static.css";
+import { motion } from "framer-motion";
+
+
+
 
 export default function Gallery(){
+
+    const galleryVariants = {
+        visible : { x : 0},
+        hidden : { x : -100000}
+    }
 
     let n = 0;
 
@@ -43,10 +52,15 @@ export default function Gallery(){
 
 
     return (
-        <div className="Gallery">
+        <motion.div 
+          className="Gallery"
+          variants={galleryVariants}
+          initial = "hidden"
+          animate = "visible"
+          >
         <img src="gallery/pic1.jpg" className="galleryPhotos" id="pic1"/>
         <img src="gallery/pic2.jpg" className="galleryPhotos" id="pic2"/>
         <img src="gallery/pic3.jpg" className="galleryPhotos" id="pic3"/>
-        </div>
+        </motion.div>
     );
 }

@@ -164,11 +164,12 @@
     /***********************tools********************/
     .Gallery {
     
-        height: 35rem;
-        width: 80%;
+        height: 25rem;
+        width: 60%;
         margin: auto;
         border-radius: 0.4rem;
         margin-top: 5%;
+        margin-bottom: 10%;
         box-shadow: 0.1rem 0.2rem 0.5rem black;
         
         

@@ -1,4 +1,6 @@
 import "../CSS/static.css";
+import { motion } from "framer-motion";
+
 
 export default function Card(){
     return (
@@ -27,10 +29,13 @@ export default function Card(){
 
         <div className="leftPiece">
         <img src="pics/aryan.png" className="cardPhoto"/>
-        <button className="CVDownloader">
+        <motion.button 
+        className="CVDownloader"
+        whileHover={{scale : 1.2}}
+        >
             <img src="icons/download.svg" className="DownloadButton"></img>
             <h3 className="cvText">CV</h3>
-        </button>
+        </motion.button>
         </div>
 
         <div className="DetailsBlock">

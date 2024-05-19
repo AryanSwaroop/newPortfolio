@@ -1,6 +1,7 @@
 import SmallSkillBox from "../tools/SmallSkillBox";
 import BigSkillBox from "../tools/BigSkillBox";
 import "../CSS/static.css";
+import { motion } from "framer-motion";
 
 export default function SkillTable(){
     return (

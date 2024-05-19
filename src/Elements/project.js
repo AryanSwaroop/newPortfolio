@@ -1,6 +1,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import ProjectCard from "../tools/ProjectCard";
+import { motion } from "framer-motion";
 
 export default function Project(){
 
@@ -89,10 +90,10 @@ export default function Project(){
         <div className="arrowCage">
         
         <button onClick={left} className="cardButton">
-        <img className="leftArrow" src="icons/left.svg"  />
+          <motion.img className="leftArrow" src="icons/left.svg"  whileHover ={{scale : 3}} whileInView={{ scale: 2 }}/>
         </button>
         <button onClick={right} className="cardButton">
-        <img className="rightArrow" src="icons/right.svg"  />
+          <motion.img className="rightArrow" src="icons/right.svg" whileHover={ { scale : 3}} whileInView={{ scale: 2 }}/>
         </button>
         </div>
         
