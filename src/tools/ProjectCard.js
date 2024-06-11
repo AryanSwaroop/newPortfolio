@@ -1,6 +1,10 @@
 import {motion} from "framer-motion";
 
 const ProjectCard = (props) => {
+
+  const handleRedirect = () => {
+    window.location.href = props.link;
+  }
     return(
         
         <div className="projectsPage">
@@ -10,7 +14,7 @@ const ProjectCard = (props) => {
         <h3 className="cardHeading">{props.Title}</h3>
         <p className="cardPara">{props.details}</p>
         </div>
-        <motion.button className="ProjectButton" 
+        <motion.button className="ProjectButton" onClick={handleRedirect} 
          animate = {
             {
                 

@@ -3,6 +3,10 @@ import { motion } from "framer-motion";
 
 
 export default function Card(){
+
+    const downloadHandler = () => {
+        window.location.href = "./CV.pdf";
+    }
     return (
         <div className="fullPiece">
 
@@ -29,7 +33,7 @@ export default function Card(){
 
         <div className="leftPiece">
         <img src="pics/aryan.png" className="cardPhoto"/>
-        <motion.button 
+        <motion.button onClick={downloadHandler}
         className="CVDownloader"
         whileHover={{scale : 1.2}}
         >

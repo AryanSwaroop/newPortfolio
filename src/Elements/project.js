@@ -60,24 +60,29 @@ export default function Project(){
     }
 
     const sourceArray = [
-        "projects/sponxer.png",
+        "projects/aivicall.png",
         "projects/ecommerce.png",
-        "projects/ecommerce.png"
+        "projects/sponxer.png"
     ];
 
     const TitleArray = [
-        "Landing Page",
         
-        "Ecommerce" ,
-        "Ecommerce" 
+        "Aivicall" ,
+        "Ecommerce",
+        "Landing Page"
     ];
 
     const detailsArray = [
-        "A fully functional Landing website with different tools like redirect to different forms and managing data.",
-        
+        "A video calling app to help you connect with friends and collaborate on projects seamlessly with AI support.",
         "A fully functional ecommerce website with different tools like uploading product, live product gallery etc.",
-        "A fully functional ecommerce website with different tools like uploading product, live product gallery etc."
+        "A fully functional Landing website with different tools like redirect to different forms and managing data."
     ];
+
+    const linkArray = [
+        "https://aivicall.vercel.app/",
+        "https://frontend-portfolio-aryan.vercel.app/",
+        "https://sponxer.online/"
+    ]
 
 
 
@@ -102,18 +107,21 @@ export default function Project(){
         source= {sourceArray[0]}
         Title= {TitleArray[0]}
         details= {detailsArray[0]}
+        link = {linkArray[0]}
         />
         
         <ProjectCard 
         source= {sourceArray[1]}
         Title= {TitleArray[1]}
         details= {detailsArray[1]}
+        link = {linkArray[1]}
         />
 
         <ProjectCard 
         source= {sourceArray[2]}
         Title= {TitleArray[2]}
         details= {detailsArray[2]}
+        link = {linkArray[2]}
         />
   </div>
         </div>
