@@ -1,16 +1,85 @@
 .Logo {
-    font-size: 3rem;
     display: flex;
     flex-direction: row;
-    color: #7a7878;
-    justify-content: center;
+    justify-content: left;
     
 }
 
+a { color: inherit; } 
+
 .LogoParts {
-    margin: 0;
-    height: 4.5rem;
+    margin-top: 1rem;
+    height: 2rem;
 }
+/***************************************************Navbar*******************************************/
+
+.Navbar {
+    
+    display: flex;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    box-shadow: 0.02rem 0.1rem 0.4rem black;
+}
+
+.navbarText {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: auto;
+    color: white;
+    margin-left: 5%;
+}
+
+.navbarTextNavigate {
+    font-size: 0.9rem;
+    margin: 0;
+    color: white;
+    margin-left: 10%;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@keyframes max-height {
+    
+}
+
+.navbarDiv {
+    
+    border-radius: 0 0 1rem 1rem ;
+    z-index: 5;
+    padding: 1rem;
+    width: 20%;
+    margin-top: 3rem;
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 1rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.02rem 0.1rem black;
+}
+
+.textWrap {
+    background-color: black;
+    border-color: white;
+    border: solid;
+    border-width: 0.1rem 0 0;
+    padding: auto;
+}
+
+.crossLogo {
+    margin-left: 80%;
+}
+
+.MenuOpenButton {
+    margin-right: 2%;
+}
+
+
+
+/***************************************************Navbar******************************************/
 
 /*********************Logo*****************************/
 .arrowCage {
@@ -258,7 +327,7 @@
 .cvText {
     font-size: 1.1rem;
     margin: 0;
-
+    color: black;
     margin: auto;
     margin-left: 2%;
     font-weight: 300;

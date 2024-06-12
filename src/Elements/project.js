@@ -90,7 +90,7 @@ export default function Project(){
 
     return (
         
-        <div >
+        <div id="projectsSection">
 
         <div className="arrowCage">
         

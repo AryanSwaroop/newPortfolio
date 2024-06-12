@@ -15,11 +15,11 @@ function App() {
    <Navbar/>
    <Gallery/>
    <Card/>
-   <Title letters={"Tech Stack"}/>
+   <Title letters={"Tech Stack"} />
    <SkillTable/>
    <Title letters={"Socials"}/>
    <SocialTable/>
-   <Title letters={"Projects"}/>
+   <Title letters={"Projects"} />
    <Project/>
    <Footer/>
    </div>

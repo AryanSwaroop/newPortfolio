@@ -12,6 +12,71 @@
         margin: 0;
         height: 6.5rem;
     }
+
+    /***************************************************Navbar*******************************************/
+
+        .Navbar {
+            width: 100%;
+            height: 4rem;
+            padding-top: 1%;
+            background-color: black;
+            box-shadow: 0.02rem 0.1rem 0.4rem black;
+        }
+
+        .navbarText {
+            margin: 0;
+            margin-left: 1%;
+            font-size: 2rem;
+            color: white;
+        }
+
+        
+.navbarTextNavigate {
+    font-size: 0.9rem;
+    margin: 0;
+    color: white;
+    margin-left: 10%;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.navbarDiv {
+    
+    border-radius: 0 0 1rem 1rem ;
+    z-index: 5;
+    padding: 1rem;
+    width: 20%;
+    margin-top: 3rem;
+    background-color: black;
+    margin-left: 80%;
+    margin-right: 1rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.02rem 0.1rem black;
+}
+
+.textWrap {
+    background-color: black;
+    border-color: white;
+    border: solid;
+    border-width: 0.1rem 0 0;
+    padding: auto;
+}
+
+.crossLogo {
+    margin-left: 80%;
+}
+
+.MenuOpenButton {
+    margin-left: 83%;
+    margin-right: 2%;
+}
+
+
+
+/***************************************************Navbar******************************************/
     
     /*********************Logo*****************************/
     .arrowCage {

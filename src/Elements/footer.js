@@ -4,7 +4,7 @@ export default function Footer(){
         alert("Message Sent !");
     }
     return(
-        <div className="footer">
+        <div className="footer" id = "contactSection">
         <div className="contactUsDiv" >
 
         <h1 className="footerText">

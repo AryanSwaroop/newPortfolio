@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function SkillTable(){
     return (
         
-        <div className="skillBox">
+        <div className="skillBox" id="skillSection">
 
         <div className="subSkill">
          
