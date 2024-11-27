@@ -47,11 +47,10 @@ a { color: inherit; }
 }
 
 .navbarDiv {
-    
     border-radius: 0 0 1rem 1rem ;
     z-index: 5;
     padding: 1rem;
-    width: 20%;
+    width: 80%;
     margin-top: 3rem;
     background-color: black;
     margin-left: 20%;
