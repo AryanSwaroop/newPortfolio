@@ -1,43 +1,34 @@
 
 import { useEffect, useRef, useState } from "react";
-import ProjectCard from "../tools/ProjectCard";
+import ContriCard from "../tools/contributeCard";
 import { motion } from "framer-motion";
 
-export default function Project(){
+export default function Contributions(){
 
     useEffect(() => {
-        const cards = document.getElementsByClassName("projectsPage");
+        const cards = document.getElementsByClassName("ContriPage");
 
-    
         for(let i = 0; i < cards.length ; i++){
             cards[i].style.left = `${i*86}%`;
         }
-    })
+    },[])
 
-    var [counter,setCounter] = useState(0);
+    const [counter,setCounter] = useState(0);
 
     const rotator = () => {
         
-        const cards = document.getElementsByClassName("projectsPage");
+        const cards = document.getElementsByClassName("ContriPage");
     
-        console.log(counter);
         for(let i = 0; i < cards.length ; i++){
     
-            cards[i].style.transform = `translateX(${-counter*123 }%)`;
+            cards[i].style.transform = `translateX(${-counter*123}%)`;
             
-            
-
-
             }
         }
 
-        
-    
-
-
     const right = () => {
     
-        if(counter >= 2) {
+        if(counter >= 3) {
             {rotator()}
             return;
         }
@@ -48,8 +39,8 @@ export default function Project(){
     }
 
     const left = () => {
+
         if(counter == 0){
-            
             {rotator()}
             return;
         }
@@ -60,37 +51,38 @@ export default function Project(){
     }
 
     const sourceArray = [
-        "projects/aivicall.png",
-        "projects/ecommerce.png",
-        "projects/sponxer.png"
+        "gallery/appwrite.png",
+        "gallery/ecell.png",
+        "gallery/CompilerExplorer.png",
+        "gallery/strapi.png"
     ];
 
     const TitleArray = [
-        
-        "Aivicall" ,
-        "Ecommerce",
-        "Landing Page"
+        "Appwrite" ,
+        "Ecell",
+        "Compiler Explorer",
+        "Strapi"
     ];
 
     const detailsArray = [
-        "A video calling app to help you connect with friends and collaborate on projects seamlessly with AI support.",
-        "A fully functional ecommerce website with different tools like uploading product, live product gallery etc.",
-        "A fully functional Landing website with different tools like redirect to different forms and managing data."
+        "Appwrite is an open-source backend platform for building web, mobile, and Flutter apps.",
+        "E-Cell DTU is a student-run organization at Delhi Technological University dedicated to business.",
+        "Compiler Explorer is an interactive tool that lets you type code in one window and see the results.",
+        "Strapi is a headless CMS that simplifies content creation and delivery to various digital platforms."
     ];
 
     const linkArray = [
-        "https://aivicall.vercel.app/",
-        "https://frontend-portfolio-aryan.vercel.app/",
-        "https://sponxer.online/"
+        "https://appwrite.io/",
+        "https://www.ecelldtu.in/",
+        "https://godbolt.org/",
+        "https://strapi.io/"
     ]
-
-
 
     //overflow issue : https://stackoverflow.com/questions/46046099/overflow-hidden-hiding-all-content
 
     return (
         
-        <div id="projectsSection">
+        <div id="contributionsSection">
 
         <div className="arrowCage">
         
@@ -103,28 +95,36 @@ export default function Project(){
         </div>
         
         <div className="projectBundle">
-        <ProjectCard 
+        <ContriCard 
         source= {sourceArray[0]}
         Title= {TitleArray[0]}
         details= {detailsArray[0]}
         link = {linkArray[0]}
         />
         
-        <ProjectCard 
+        <ContriCard 
         source= {sourceArray[1]}
         Title= {TitleArray[1]}
         details= {detailsArray[1]}
         link = {linkArray[1]}
         />
 
-        <ProjectCard 
+        <ContriCard 
         source= {sourceArray[2]}
         Title= {TitleArray[2]}
         details= {detailsArray[2]}
         link = {linkArray[2]}
         />
+
+        <ContriCard 
+        source= {sourceArray[3]}
+        Title= {TitleArray[3]}
+        details= {detailsArray[3]}
+        link = {linkArray[3]}
+        />
+
   </div>
-        </div>
+  </div>
     )
 
 }

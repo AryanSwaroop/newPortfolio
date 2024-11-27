@@ -51,6 +51,7 @@ export default function Card(){
             <div className="educationNaming">
             <img src="icons/education.svg" className="degreeIcon"/>
             <h3 className="nameOfCollege">D.T.U</h3>
+            
             </div>
 
             <div className="educationNaming">

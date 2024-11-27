@@ -1,27 +1,40 @@
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
-import { MdMenuOpen } from "react-icons/md";
+import { useRef } from "react";
 
 export default function Navbar (){
     
     const [navMenu , setNavMenu] = useState(false);
 
-    const handleOpenMenu =  () => {
-        setNavMenu(true);
-    }
-
     const handleClose = () => {
       setNavMenu(false);
     }
 
+  const logo = useRef(null);
+  const [angle, setAngle] = useState(0);
+
+  const rotateMenu = () => {
+    // const newAngle = angle + 90; // Rotate 45 degrees on each click
+    // setAngle(newAngle);
+    // logo.current.style.transform = `rotate(${newAngle}deg)`;
+     setNavMenu(true);
+  };
+
     return(
 
         <div className="Navbar">
-        <h1 className="navbarText">AryanPFolio </h1>
+        
+        <h1 className="navbarText">DevPort</h1>
+        
+        <div className="menuLogoPair">
 
-        { !navMenu && 
-        <MdMenuOpen  style={{color : "white" , height : "3rem", width: "3rem"}} className="MenuOpenButton" onClick={handleOpenMenu}/>
+        {
+        !navMenu
+        &&
+        <img ref={logo} src="icons/dotMenu.svg"  style={{width: "2rem"}} className="MenuOpenButton" onClick={rotateMenu}/>
+        
         }
+        
         { 
 
         navMenu && 
@@ -30,7 +43,6 @@ export default function Navbar (){
 
         <RxCross1 style={{color: "white"}} className="crossLogo" onClick={handleClose} />
         
-
         <a href = "/#projectsSection">
            <h1 className="navbarTextNavigate">Projects</h1>
         </a>
@@ -46,14 +58,24 @@ export default function Navbar (){
            <h1 className="navbarTextNavigate">Socials</h1>
          </div>
          </a>
+
         <a href = "/#contactSection">
          <div className="textWrap">
            <h1 className="navbarTextNavigate">Contact</h1>
          </div>
          </a>
+
+         <a href = "/#contributionsSection">
+         <div className="textWrap">
+           <h1 className="navbarTextNavigate">Contributions</h1>
+         </div>
+         </a>
+
         </div>
         
         }
+
+        </div>
 
         </div>
         

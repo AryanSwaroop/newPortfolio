@@ -16,15 +16,16 @@
     /***************************************************Navbar*******************************************/
 
         .Navbar {
+            display: flex;
+            justify-content: space-between;
             width: 100%;
             height: 4rem;
-            padding-top: 1%;
             background-color: black;
             box-shadow: 0.02rem 0.1rem 0.4rem black;
         }
 
         .navbarText {
-            margin: 0;
+            margin: auto;
             margin-left: 1%;
             font-size: 2rem;
             color: white;
@@ -57,6 +58,13 @@
     box-shadow: 0.02rem 0.1rem black;
 }
 
+.menuLogoPair {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-right: 3%;
+}
+
 .textWrap {
     background-color: black;
     border-color: white;
@@ -70,8 +78,6 @@
 }
 
 .MenuOpenButton {
-    margin-left: 83%;
-    margin-right: 2%;
 }
 
 
@@ -124,8 +130,13 @@
         width: 90%;
         height: 15rem;
     }
-    
-   
+
+    .cardImageContri{
+        border-radius:  1rem 0 0 1rem ;
+        height: 15rem;
+        width: 15rem;
+        margin-left: 0;
+    }
     
     .projectsPage {
         display: flex;
@@ -139,6 +150,19 @@
         position: absolute;
         transition: all 1s linear;
     }
+
+    .ContriPage {
+        display: flex;
+        flex-direction: row;
+        border-radius: 1.1rem;
+        height: 15rem;
+        width:70%;
+        margin: 15%;
+        margin-top: 1%;
+        background-color: white;
+        position: absolute;
+        transition: all 1s linear;
+    }    
     
     
     /**************************************Card***************************************/

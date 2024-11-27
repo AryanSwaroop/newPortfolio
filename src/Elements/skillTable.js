@@ -13,7 +13,7 @@ export default function SkillTable(){
             <SmallSkillBox name="Java" src="icons/java.svg"/>
             <SmallSkillBox name="Python" src="icons/python.svg"/>
             <SmallSkillBox name="Next" src="icons/next.svg"/>
-            <SmallSkillBox name="Postgres" src="icons/postgresql.svg"/>
+            <SmallSkillBox name="Golang" src="icons/golang.svg"/>
             
         </div>
 
@@ -21,7 +21,7 @@ export default function SkillTable(){
 
             <BigSkillBox name="React" src="icons/react.svg"/>
             <BigSkillBox name="Express" src="icons/express.svg"/>
-            <SmallSkillBox name="Tensor" src="icons/tensorflow.svg"/>
+            <SmallSkillBox name="LnChain" src="icons/langchain.svg"/>
 
          </div>
 

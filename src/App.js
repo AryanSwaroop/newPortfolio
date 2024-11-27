@@ -6,7 +6,9 @@ import SocialTable from "./Elements/socialTable";
 import Project from "./Elements/project";
 import Footer from "./Elements/footer";
 import Navbar from "./Elements/navbar";
+import Contributions from "./Elements/contribution";
 import "./CSS/responsive.css";
+import "./CSS/static.css";
 
 
 function App() {
@@ -15,12 +17,14 @@ function App() {
    <Navbar/>
    <Gallery/>
    <Card/>
-   <Title letters={"Tech Stack"} />
+   <Title letters={"Tech Stack"}/>
    <SkillTable/>
    <Title letters={"Socials"}/>
    <SocialTable/>
-   <Title letters={"Projects"} />
+   <Title letters={"Projects"}/>
    <Project/>
+   <Title letters={"Contributes"}/>
+   <Contributions/>
    <Footer/>
    </div>
   );
