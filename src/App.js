@@ -17,13 +17,13 @@ function App() {
    <Navbar/>
    <Gallery/>
    <Card/>
-   <Title letters={"Tech Stack"}/>
+   <Title letters={"Tech Stack"} id="stacksHere"/>
    <SkillTable/>
-   <Title letters={"Socials"}/>
+   <Title letters={"Socials"} id="socialHere"/>
    <SocialTable/>
-   <Title letters={"Projects"}/>
+   <Title letters={"Projects"} id="projectsHere"/>
    <Project/>
-   <Title letters={"Contributes"}/>
+   <Title letters={"Contributes"} id="contriHere"/>
    <Contributions/>
    <Footer/>
    </div>
