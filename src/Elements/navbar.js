@@ -23,13 +23,13 @@ export default function Navbar (){
       !visible && 
         <div className="Navbar"> 
         <img src="icons/cross.svg" onClick={()=>setVisible(true)} className="crossIcon"></img>
-        <div className="subNavbar" ><a href="/#skillSection">Stack</a></div>
+        <div className="subNavbar" ><a href="/#stacksHere">Stack</a></div>
         <h1 className="MenuDivider">|</h1>
-        <div className="subNavbar"><a href="/#socialSection">Social</a></div>
+        <div className="subNavbar"><a href="/#socialHere">Social</a></div>
         <h1 className="MenuDivider">|</h1>
-        <div className="subNavbar"><a href="/#projectsSection">Project</a></div>
+        <div className="subNavbar"><a href="/#projectsHere">Project</a></div>
         <h1 className="MenuDivider">|</h1>
-        <div className="subNavbar"><a href="/#contributionsSection">Contri</a></div>
+        <div className="subNavbar"><a href="/#contriHere">Contri</a></div>
         </div>
 
     }
