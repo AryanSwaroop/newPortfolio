@@ -30,13 +30,13 @@ export default function HomePage() {
     <section className="antialiased md:w-full max-w-xl mt-4 mx-4 md:mx-auto">
 
       <p className="mb-4">
-        I am a software engineer interested in building polished software and
-        crafting delightful interfaces.
+        I am a software engineer interested in building software and
+        crafting delightful interfaces from Delhi Technological University(formely DCE).
       </p>
 
       <p className="mb-4">
-        Welcome to my own little corner of the web, where I share notes and
-        resources on topics that interest me.
+        Welcome to my place at web , where I share my experiences and
+        blogs on topics that interest me.
       </p>
 
 
