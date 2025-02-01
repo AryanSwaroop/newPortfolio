@@ -3,8 +3,8 @@ import Link from "next/link";
 import { getBlogPosts } from "@/lib/mdx";
 
 export const metadata = {
-  title: "Blog",
-  description: "Thoughts on software, design, and other tidbits.",
+  title: "Experiences",
+  description: "My Skills and Experiences in the field of Engineering.",
 };
 
 export default function BlogPage() {
@@ -18,9 +18,9 @@ export default function BlogPage() {
 
   return (
     <section className="antialiased max-w-xl mx-4 mt-8 md:mx-auto">
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Blog</h1>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Experiences</h1>
 
-      <p className="mb-4">Thoughts on software, design, and other tidbits.</p>
+      <p className="mb-4">My Skills and Experiences in the field of Engineering.</p>
 
       <div className="mt-8">
         {sortedBlogs.map((post) => (

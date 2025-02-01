@@ -3,8 +3,8 @@ import Email from "@/components/email";
 
 const items = {
   "/blog": {
-    title: "Writing",
-    description: "Thoughts on software, design, and other tidbits.",
+    title: "Experiences",
+    description: "My Skills and Experiences in the field of Engineering.",
   },
   "/projects": {
     title: "Projects",
@@ -27,7 +27,8 @@ export const metadata = {
 
 export default function HomePage() {
   return (
-    <section className="antialiased md:w-full max-w-xl mt-8 mx-4 md:mx-auto">
+    <section className="antialiased md:w-full max-w-xl mt-4 mx-4 md:mx-auto">
+
       <p className="mb-4">
         I am a software engineer interested in building polished software and
         crafting delightful interfaces.
@@ -37,6 +38,8 @@ export default function HomePage() {
         Welcome to my own little corner of the web, where I share notes and
         resources on topics that interest me.
       </p>
+
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
         {Object.entries(items).map(([path, { title, description }]) => {
